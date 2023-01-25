@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+
+<body>
+    <div>
+        <h1>Personal Details</h1>
+    </div>
+    <form action="form.php">
+        <div>
+            <p>Salutation</p>
+            <select name="salutation" id="salutation">
+                <option value="no-salutation">--None--</option>
+                <option value="Hii">Hii</option>
+                <option value="Hello">Hello</option>
+                <option value="Namaste">Namaste</option>
+                <option value="Bye">Bye</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" placeholder="Enter Your First Name">
+        </div><br>
+
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" placeholder="Enter Your Last Name">
+        </div><br>
+
+        <div>
+                <label for="gender">Gender:   </label>
+                <label for="genderidmale">
+                    <input type="radio" name="gender" id="genderidmale">Male
+                </label>
+
+                <label for="genderidfemale">
+                    <input type="radio" name="gender" id="genderidfemale">Female
+                </label>
+            
+        </div><br>
+
+        <div>
+            <label for="email">Enter your email:  </label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div><br>
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+
+        <div><br>
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address" cols="35" rows="3" placeholder="Type your address"></textarea>
+        </div>
+
+        <br>
+        <br>
+        <div><br>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
